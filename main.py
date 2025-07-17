@@ -9,8 +9,8 @@ from utils import check_ban
 app = Flask(__name__)
 
 load_dotenv()
-APPLICATION_ID = os.getenv("APPLICATION_ID")
-TOKEN = os.getenv("TOKEN")
+APPLICATION_ID = os.getenv("1393305169340665967")
+TOKEN = os.getenv("MTM5MzMwNTE2OTM0MDY2NTk2Nw.G9JVPA.8ClB19Creos4xQ38BRVPz7SiaeEaC93jjqpdTE")
 
 intents = discord.Intents.default()
 intents.message_content = True
